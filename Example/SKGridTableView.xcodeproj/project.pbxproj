@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2DEDA5B6D52CFE25C96D974C /* Pods-SKGridTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKGridTableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKGridTableView_Tests/Pods-SKGridTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		50D7B35FD5A8E15E92A214B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		50D7B35FD5A8E15E92A214B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SKGridTableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKGridTableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +41,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6A09B4086B00B3E0AB901FF3 /* Pods_SKGridTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKGridTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EB27605B2CEA683549C044E /* SKGridTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SKGridTableView.podspec; path = ../SKGridTableView.podspec; sourceTree = "<group>"; };
+		6EB27605B2CEA683549C044E /* SKGridTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKGridTableView.podspec; path = ../SKGridTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7124B483C577CB99A08D0EBD /* Pods-SKGridTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKGridTableView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKGridTableView_Example/Pods-SKGridTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B5154428C4B2E52FC140287 /* Pods-SKGridTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKGridTableView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKGridTableView_Tests/Pods-SKGridTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B993B801CB83032592EFC001 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B993B801CB83032592EFC001 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BD18D6C2DC7AAB4120B1F926 /* Pods_SKGridTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKGridTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9637A1ED472D248E7C1A46D /* Pods-SKGridTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKGridTableView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKGridTableView_Example/Pods-SKGridTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
