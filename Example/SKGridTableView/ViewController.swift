@@ -7,9 +7,15 @@
 //
 
 import UIKit
+import SKGridTableView
 
 class ViewController: UIViewController {
 
+    @IBAction func showGridView(_ sender: Any) {
+        let gridTableView = SKSampleViewController()
+        self.navigationController?.pushViewController(gridTableView, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
