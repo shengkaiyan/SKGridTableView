@@ -24,7 +24,7 @@ open class SKGridItemModel: NSObject {
 }
 
 open class SKGridModel: NSObject {
-    open var fixedColumn: Int = 1
+    open var fixedColumn: Int = 0
     open var cellItems = [SKGridItemModel]()
     
     public override init() {

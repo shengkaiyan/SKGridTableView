@@ -52,17 +52,49 @@ class SKSampleViewController: SKGridViewController {
  
         girdDataSource = stocks as [AnyObject]
         let stock = Stock.init(name: "600600", a1: "100", a2: "200", a3: "300", b1: "b100", b2: "b200", b3: "b300", c1: "c100", c2: "c200", c3: "c300", d1: "d100", d2: "d200", d3: "d300")
+        let stock2 = Stock.init(name: "600601", a1: "100", a2: "200", a3: "300", b1: "b100", b2: "b200", b3: "b300", c1: "c100", c2: "c200", c3: "c300", d1: "d100", d2: "d200", d3: "d300")
+//        stock2.A1 = nil
+        
         print("stock \(stock.value(forKey: "A1"))")
+        print("stock \(stock2.value(forKey: "A1"))")
         girdDataSource.append(stock as AnyObject)
+        girdDataSource.append(stock2 as AnyObject)
+        
+        girdDataSource.append(stock as AnyObject)
+        girdDataSource.append(stock2 as AnyObject)
+        
+        girdDataSource.append(stock as AnyObject)
+        girdDataSource.append(stock2 as AnyObject)
+        
+        girdDataSource.append(stock as AnyObject)
+        girdDataSource.append(stock2 as AnyObject)
+        
+        girdDataSource.append(stock as AnyObject)
+        girdDataSource.append(stock2 as AnyObject)
+        
+        girdDataSource.append(stock as AnyObject)
+        girdDataSource.append(stock2 as AnyObject)
+        
+        girdDataSource.append(stock as AnyObject)
+        girdDataSource.append(stock2 as AnyObject)
         
         gridModel = SKGridModel()
         gridModel.cellItems.append(SKGridItemModel(sectionTitle: "名称", variableName: "name", width: 100))
         gridModel.cellItems.append(SKGridItemModel(sectionTitle: "价格", variableName: "A1", width: 70))
         gridModel.cellItems.append(SKGridItemModel(sectionTitle: "5日", variableName: "B1", width: 200))
         gridModel.cellItems.append(SKGridItemModel(sectionTitle: "10日", variableName: "C1", width: 100))
-        gridModel.cellItems.append(SKGridItemModel(sectionTitle: "15日", variableName: "D1", width: 100))
+        gridModel.cellItems.append(SKGridItemModel(sectionTitle: "15日", variableName: "D1", width: 200))
+        gridModel.cellItems.append(SKGridItemModel(sectionTitle: "20日", variableName: "D2", width: 200))
+        gridModel.cellItems.append(SKGridItemModel(sectionTitle: "30日", variableName: "D3", width: 60))
+        
+        gridModel.fixedColumn = 1
+        
+        reloadData()
     }
     
+//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        
+//    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
